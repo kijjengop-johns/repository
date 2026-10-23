@@ -1,0 +1,14 @@
+{
+  "name": "sda-kigalama-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SDA Kigalama Church website and admin message inbox",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "setup-admin": "node setup-admin.js",
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
